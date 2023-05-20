@@ -301,6 +301,7 @@ function Quest4 () {
     }
 }
 info.onLifeZero(function () {
+    music.stopAllSounds()
     game.setGameOverMessage(false, "You were eaten")
     game.over(false)
 })
